@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Todos</h1>
+
+<ul id="todos" style="list-style: none;" >
+  <% @todos.each do |todo| %>
+    <li>
+      <%= form_with(model: todo, local: false) do |f| %>
+        <%= f.check_box :done, onchange: 'this.form.submit();' %>
+        <%= link_to todo.title, todo %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New todo", new_todo_path %>
