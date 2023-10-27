@@ -1,24 +1,3 @@
-# README
+# Rails Sample with Playwright
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[playwright-ruby-client](https://playwright-ruby-client.vercel.app/), [YusukeIwaki/capybara-playwright-driver: Playwright driver for Capybara](https://github.com/YusukeIwaki/capybara-playwright-driver) を使って Playwright で System Spec を動かすサンプルです。
